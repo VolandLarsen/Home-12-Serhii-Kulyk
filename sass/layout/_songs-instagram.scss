@@ -1,0 +1,13 @@
+.song-link {
+    text-decoration: none;
+    color: $main-font-color;
+}
+
+.song:hover {
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.iframe-player {
+    border: none;
+}

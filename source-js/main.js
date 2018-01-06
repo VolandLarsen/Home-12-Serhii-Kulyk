@@ -23,7 +23,9 @@ jQuery(document).ready(function() {
 jQuery(window).ready(function() {
   jQuery('.flexslider').flexslider({
     animation: "slide",
-    animationLoop: false,
+      controlNav: false,
+      animationLoop: true,
+      directionNav: false,
   })
 })
 
